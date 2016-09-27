@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buket Todo App</title>
+  <meta name="author" content="Ahmed Kasapbashi">
+
+
+  <!-- Roboto Font Embed -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+</head>
+<body>
+
+
+<div class="wrapper">
+  <header>
+    <div class="todo-title">
+      <span class="top-icon"><i class="fa fa-inbox" aria-hidden="true"></i></span>
+      <h2>Todos</h2>
+    </div>
+    <input id="item" type="text" placeholder="Add new reminder">
+    <span class="reminder-icon"><i class="fa fa-bell-o" aria-hidden="true"></i></span>
+    <!-- <button id="add">
+      <i class="fa fa-plus"></i>
+    </button> -->
+  </header>
+
+  <div id="date">
+    <span class="day" id="day"></span>
+    <span class="date" id="today"></span>
+    <span class="month" id="month"></span>
+  </div>
+
+<div class="container">
+  <!-- Uncompleted Tasks -->
+<p class="heading">To be completed</p>
+  <ul class="todo" id="todo">
+
+  </ul>
+
+  <!-- Completed Tasks -->
+  <!-- <p class="heading">Completed</p> -->
+  <p class="heading" id="to-be">Completed</p>
+  <ul class="todo" id="completed"></ul>
+</div>
+
+
+</div>
+
+
+<script src="js/main.js">
+
+</script>
+</body>
+</html>
